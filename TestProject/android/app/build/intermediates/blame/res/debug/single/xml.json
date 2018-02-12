@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/dorado/filmDevReactApp/TestProject/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/dorado/filmDevReactApp/TestProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/xml/preferences.xml"
+    },
+    {
         "merged": "/Users/m652326/Documents/deco-workspace/TestProject/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/m652326/Documents/deco-workspace/TestProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/xml/preferences.xml"
     }
