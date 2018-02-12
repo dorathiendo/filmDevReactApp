@@ -2,6 +2,11 @@ import React, { Component, } from 'react';
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
+  wrapper: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center'
+  },
   header: {
     // backgroundColor: 'black',
     // color: 'white',
@@ -13,8 +18,8 @@ export default StyleSheet.create({
     margin: 20
   },
   container: {
-    flex: 1,
     backgroundColor: 'white',
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -67,5 +72,23 @@ export default StyleSheet.create({
     resizeMode: 'cover',
     // opacity: 0.5
   },
-
+  navigationMenu: {
+    // backgroundColor: 'grey',
+    flexDirection: 'row',
+    position: 'absolute',
+    bottom: 0,
+    right: 0,
+    left: 0,
+    justifyContent: 'space-between',
+    borderTopWidth: 1,
+    borderColor: 'grey'
+  },
+  navigationButton: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 5,
+    paddingVertical: 20,
+    borderRightWidth: 1
+  }
 });
